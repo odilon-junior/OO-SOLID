@@ -1,18 +1,18 @@
 package br.com.capitulo1.models;
 
 import br.com.capitulo1.services.RegraDeCalculo;
-import br.com.capitulo1.services.CalcularDezOuVintePorcento;
-import br.com.capitulo1.services.CalcularQuinzeOuVinteCincoPorcento;
-import br.com.capitulo1.services.CalcularTrintaOuQuarentaPorcento;
+import br.com.capitulo1.services.CalcularDezOuVintePorCento;
+import br.com.capitulo1.services.CalcularQuinzeOuVinteCincoPorCento;
+import br.com.capitulo1.services.CalcularTrintaOuQuarentaPorCento;
 
 /**
  * Created by odilon on 13/03/16.
  */
 public enum Cargo {
 
-    PROGRAMADOR(new CalcularDezOuVintePorcento()),
-    DBA(new CalcularQuinzeOuVinteCincoPorcento()),
-    TESTER(new CalcularTrintaOuQuarentaPorcento());
+    PROGRAMADOR(new CalcularDezOuVintePorCento()),
+    DBA(new CalcularQuinzeOuVinteCincoPorCento()),
+    TESTER(new CalcularTrintaOuQuarentaPorCento());
 
     private RegraDeCalculo regra;
 

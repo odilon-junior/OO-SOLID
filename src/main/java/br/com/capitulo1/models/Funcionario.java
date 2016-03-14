@@ -33,7 +33,7 @@ public class Funcionario {
         this.cargo = cargo;
     }
 
-    public double novoSalario() {
+    public double getAumentoSalario() {
         return cargo.getRegra().calcular(this);
     }
 
