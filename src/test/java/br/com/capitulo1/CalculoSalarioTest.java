@@ -23,7 +23,6 @@ public class CalculoSalarioTest {
 
     @Test
     public void deveCalcularSalarioProgramdorComAumentoVintePorcento() {
-
         funcionario.setCargo(Cargo.PROGRAMADOR);
         funcionario.setSalario(1000.00);
 
@@ -35,7 +34,6 @@ public class CalculoSalarioTest {
 
     @Test
     public void deveCalcularSalarioProgramdorComAumentoDezPorcento() {
-
         funcionario.setCargo(Cargo.PROGRAMADOR);
         funcionario.setSalario(4000);
 
@@ -47,10 +45,8 @@ public class CalculoSalarioTest {
 
     @Test
     public void deveCalcularSalarioDBAComAumentoQuinzePorcento() {
-
         funcionario.setCargo(Cargo.DBA);
         funcionario.setSalario(5000);
-
 
         final double VALOR_ESPERADO = 750;
         final double valorCalculado = funcionario.getAumentoSalario();
@@ -60,10 +56,8 @@ public class CalculoSalarioTest {
 
     @Test
     public void deveCalcularSalarioDBAComAumentoVinteCincoPorcento() {
-
         funcionario.setCargo(Cargo.DBA);
         funcionario.setSalario(1000);
-
 
         final double VALOR_ESPERADO = 250;
         final double valorCalculado = funcionario.getAumentoSalario();
@@ -73,10 +67,8 @@ public class CalculoSalarioTest {
 
     @Test
     public void deveCalcularSalarioTesterComAumentoTrintaPorcento() {
-
         funcionario.setCargo(Cargo.TESTER);
         funcionario.setSalario(4000);
-
 
         final double VALOR_ESPERADO = 1200;
         final double valorCalculado = funcionario.getAumentoSalario();
@@ -86,16 +78,12 @@ public class CalculoSalarioTest {
 
     @Test
     public void deveCalcularSalarioTesterComAumentoQuarentaPorcento() {
-
         funcionario.setCargo(Cargo.TESTER);
         funcionario.setSalario(2000);
-
 
         final double VALOR_ESPERADO = 800;
         final double valorCalculado = funcionario.getAumentoSalario();
 
         assertEquals(VALOR_ESPERADO, valorCalculado, DELTA);
     }
-
-
 }
