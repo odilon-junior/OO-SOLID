@@ -1,7 +1,7 @@
-package br.com.capitulo1;
+package br.com.strategy;
 
-import br.com.capitulo1.models.Cargo;
-import br.com.capitulo1.models.Funcionario;
+import br.com.strategy.models.Cargo;
+import br.com.strategy.models.Funcionario;
 import org.junit.Before;
 import org.junit.Test;
 

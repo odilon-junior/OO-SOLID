@@ -1,6 +1,6 @@
-package br.com.capitulo2.services;
+package br.com.observer.services;
 
-import br.com.capitulo2.models.NFe;
+import br.com.observer.models.NFe;
 
 /**
  * Created by odilon on 15/03/16.

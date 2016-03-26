@@ -1,8 +1,8 @@
-package br.com.capitulo2;
+package br.com.observer;
 
-import br.com.capitulo2.models.Fatura;
-import br.com.capitulo2.models.NFe;
-import br.com.capitulo2.services.*;
+import br.com.observer.models.Fatura;
+import br.com.observer.models.NFe;
+import br.com.observer.services.*;
 import org.junit.Test;
 import org.mockito.Mockito;
 

@@ -1,6 +1,6 @@
-package br.com.capitulo1.services;
+package br.com.strategy.services;
 
-import br.com.capitulo1.models.Funcionario;
+import br.com.strategy.models.Funcionario;
 
 /**
  * Created by odilon on 13/03/16.

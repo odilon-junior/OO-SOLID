@@ -1,9 +1,9 @@
-package br.com.capitulo1.models;
+package br.com.strategy.models;
 
-import br.com.capitulo1.services.RegraDeCalculo;
-import br.com.capitulo1.services.CalcularDezOuVintePorCento;
-import br.com.capitulo1.services.CalcularQuinzeOuVinteCincoPorCento;
-import br.com.capitulo1.services.CalcularTrintaOuQuarentaPorCento;
+import br.com.strategy.services.RegraDeCalculo;
+import br.com.strategy.services.CalcularDezOuVintePorCento;
+import br.com.strategy.services.CalcularQuinzeOuVinteCincoPorCento;
+import br.com.strategy.services.CalcularTrintaOuQuarentaPorCento;
 
 /**
  * Created by odilon on 13/03/16.

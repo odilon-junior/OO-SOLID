@@ -1,7 +1,7 @@
-package br.com.capitulo2.services;
+package br.com.observer.services;
 
-import br.com.capitulo2.models.Fatura;
-import br.com.capitulo2.models.NFe;
+import br.com.observer.models.Fatura;
+import br.com.observer.models.NFe;
 
 import java.util.List;
 

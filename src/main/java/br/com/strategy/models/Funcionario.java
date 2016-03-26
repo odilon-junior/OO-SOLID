@@ -1,4 +1,4 @@
-package br.com.capitulo1.models;
+package br.com.strategy.models;
 
 /**
  * Created by odilon on 13/03/16.

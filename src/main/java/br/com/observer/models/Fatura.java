@@ -1,4 +1,4 @@
-package br.com.capitulo2.models;
+package br.com.observer.models;
 
 /**
  * Created by odilon on 15/03/16.
